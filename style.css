@@ -50,11 +50,13 @@
 }
 
 /*Сброс стилей для всех элементов списка и кнопок*/
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
 
-input,button{
+input,
+button{
   outline: none;
 }
 
@@ -73,7 +75,8 @@ input,button{
 }
 
 /* Heading */
-.list__label, .new-task__label {
+.list__label,
+.new-task__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -161,11 +164,13 @@ input,button{
   display: none;
 }
 
-.edit-mode .task__input {
+.edit-mode
+.task__input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task__label {
+.edit-mode
+.task__label {
   display: none;
 }
