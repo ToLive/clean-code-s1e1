@@ -137,7 +137,7 @@ input,button{
 }
 
 .task-item > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 .delete-task__image {
@@ -158,12 +158,12 @@ input,button{
 
 /* Edit Task */
 .task__input {
-  display: none
+  display: none;
 }
 
 .edit-mode .task__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .task__label {
