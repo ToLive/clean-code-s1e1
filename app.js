@@ -24,7 +24,7 @@ var createNewTaskElement=function(taskString){
     var checkBox=document.createElement("input");//checkbx
     //label
     var label=document.createElement("label");//label
-    label.classList.add("task__label");
+    label.classList.add("tasks-item__label");
 
     //input (text)
     var editInput=document.createElement("input");//text
@@ -133,7 +133,7 @@ var taskCompleted=function(){
     //Append the task list item to the #completed-tasks
     var listItem=this.parentNode;
     var taskLabel = listItem.querySelector('label');
-    taskLabel.classList.add('tasks-item__label');
+    taskLabel.classList.add('tasks-item__label-complete');
 
     completedTasksHolder.appendChild(listItem);
     bindTaskEvents(listItem, taskIncomplete);
@@ -148,7 +148,7 @@ var taskIncomplete=function(){
     //Append the task list item to the #incompleteTasks.
     var listItem=this.parentNode;
     var taskLabel = listItem.querySelector('label');
-    taskLabel.classList.remove('tasks-item__label');
+    taskLabel.classList.remove('tasks-item__label-complete');
 
     incompleteTaskHolder.appendChild(listItem);
     bindTaskEvents(listItem,taskCompleted);
