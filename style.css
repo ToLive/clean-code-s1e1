@@ -131,18 +131,18 @@ button{
   vertical-align: middle;
 }
 
-.tasks-item > input[type="checkbox"] {
+.task-item__checkbox {
   margin: 0 10px;
 }
 
-.tasks-item > label {
+.tasks-item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.tasks-item > input[type="text"] {
+.tasks-item__input {
   width: 226px;
 }
 
